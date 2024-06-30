@@ -1,0 +1,161 @@
+.wael {
+  // hier komt alles in
+
+  sup {
+    vertical-align: super;
+    font-size: 25px;
+  }
+
+  .links{
+    text-align: left;
+    //color: red;
+  }
+
+  .midden {
+    text-align: left;
+    justify-content: center;
+  }
+
+  div .cards {
+    margin: 0;
+    padding-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .cards:hover {
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: translateY(-10px);
+    transition: .3s;
+  }
+
+  .borders {
+    border: 1px solid #000;
+  }
+
+  //.card {
+  //  color: red;
+  //}
+
+  .card-body {
+    background-color: $nav_yellow;
+  }
+
+  .btn-danger:hover {
+    @include button-rood($nav_red);
+    //text-decoration: underline;
+  }
+
+
+
+  .apart {
+    @include button-rood($nav_red);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    position: relative;
+
+    &::before, &::after {
+      // font-family = Dient ervoor om Content te gebruiken bij Font awesome
+      font-family: 'Font Awesome 5 Free';
+      font-weight: bold;
+      position: absolute;
+      top: 0;
+
+    }
+
+    &::before{
+      content: '\f071';
+      left: 0;
+    }
+
+    &::after {
+      content: '\f071';
+      right: 0;
+    }
+
+  }
+
+
+  .welkom {
+    letter-spacing: 8px;
+    //margin-bottom: 20px;
+    //position: relative;
+    animation-name: titel;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    //animation-timing-function: linear;
+  }
+  
+  @keyframes titel {
+    0% {
+      color: $nav_red;
+      //margin-bottom: -5px;
+    }
+
+    30% {
+      letter-spacing: 25px;
+      margin-bottom: 40px;
+    }
+
+
+    85% {
+      letter-spacing: 8px;
+      margin-bottom: 20px;
+    }
+
+
+  }
+
+
+  #toggleActeurs, #toggleFilms, #toggleRegisseurs {
+    cursor: pointer;
+
+    > .fa-arrow-circle-down {
+      font-size: 25px;
+    }
+    
+  }
+
+  #fadeActeurs, #fadeFilms, #fadeRegisseurs {
+    display: none;
+    font-size: 15px;
+    color: $nav_red;
+  }
+
+
+
+  .foto {
+    position: relative;
+
+    > .fa-times {
+      position: absolute;
+      right: 20px;
+      top: 3px;
+      cursor: pointer;
+      -webkit-text-stroke: .5px $nav_yellow;
+    }
+
+    > p{
+      font-weight: bold;
+    }
+  }
+
+
+
+  #robot {
+    cursor: pointer;
+
+    > .fa-box-open {
+      font-size: 25px;
+    }
+
+    }
+
+  .btn-link {
+    color: $nav_red;
+  }
+
+
+
+}

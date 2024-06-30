@@ -1,0 +1,53 @@
+// import Font Awesome
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css";
+
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap');
+
+//$body-bg: purple;
+
+// lettertype
+$font-family-sans-serif: 'Noto Sans', sans-serif;
+$font-family-alle-titels: 'Cabin', sans-serif;
+
+// breakpoints
+//$grid-breakpoints: (
+//        xs: 0,
+//        sm: 576px,
+//        md: 768px,
+//        lg: 992px,
+//        xl: 1200px
+//);mbinatie va
+
+// kleuren
+$white_grey: #ececec;
+//$red: lighten(#e91111, 2%);
+$nav_red: darken(#e91111, 5%);
+$purple: #b19cd9;
+$nav_yellow: #ffc107b0;
+
+
+//$itfactory: #72c5d0;
+//$accentkleur: saturate(invert($itfactory), 20%);
+
+$theme-colors: (
+        //'itfactory': $itfactory,
+        'nav_red': $nav_red,
+        'white_grey': $white_grey,
+        'nav_yellow': $nav_yellow
+);
+
+// breakpoints
+$breakpoint-sm: 576;
+$breakpoint-md: 768;
+$breakpoint-lg: 960;
+$breakpoint-xl: 1140;
+
+$breakpoint-map: (
+        'sm': $breakpoint-sm,
+        'md': $breakpoint-md,
+        'lg': $breakpoint-lg,
+        'xl': $breakpoint-xl
+)
+

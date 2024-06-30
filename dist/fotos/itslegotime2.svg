@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="56" viewBox="0 0 100 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e91111;
+        stroke: #000;
+        stroke-width: 0.366px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 100px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: Calibri;
+      }
+    </style>
+  </defs>
+  <path id="Veelhoek_3" data-name="Veelhoek 3" class="cls-1" d="M96.412,32.547L77.823,42.2,48.261,45.735,19.019,41.812,1.266,31.925,1.783,19.851,20.373,10.2,49.934,6.663l29.242,3.923,17.753,9.887Z"/>
+  <image id="itsLegotime" x="7" y="16" width="82" height="18" xlink:href="data:img/png;base64,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"/>
+  <text id="Lorem_Ipsum" data-name="Lorem Ipsum" class="cls-2" x="390.672" y="17.316"><tspan x="390.672">Lorem Ipsum</tspan></text>
+</svg>

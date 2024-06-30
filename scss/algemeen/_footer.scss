@@ -1,0 +1,24 @@
+footer {
+  background-color: #F8F8F8;
+a {
+  color: $black;
+  transition: 1s;
+  border: 1.5px solid #000;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-style: italic;
+  &:hover {
+    //color: $blue;
+    text-decoration: none;
+    background-color: lighten($nav_red, 45%);
+  }
+}
+
+  #author {
+    color: black;
+    margin-top: 20px;
+  }
+}

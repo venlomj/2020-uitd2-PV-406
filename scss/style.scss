@@ -1,0 +1,17 @@
+// Override Bs4 variables and custom mixins
+@import "algemeen/variables";
+@import "mixins";
+
+
+// Link to BS4
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom code/partials
+@import "algemeen/reset";
+@import "algemeen/navigatie";
+@import "algemeen/footer";
+@import "algemeen/images";
+
+@import "wael";
+@import "murrel";
+@import "safi";

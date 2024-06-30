@@ -1,0 +1,41 @@
+nav{
+  //padding-bottom: 1rem;
+  padding-top: 1rem;
+
+  img{
+    //margin-top: 10px;
+    align-items: end;
+    margin-left: 5px;
+  }
+
+  ul li{
+    background-color: inherit;
+    margin-left: 5px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  a {
+    color: darken($nav_red, 10%) !important;
+    font-weight: bold;
+
+
+    &:hover {
+      color: lighten($nav_red, 10%) !important;
+    }
+
+  }
+
+}
+
+.navbar {
+  padding: 0 16px;
+}
+
+.navbar-toggler {
+  background-color: $nav_red;
+}
+
+
+

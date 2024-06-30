@@ -1,0 +1,60 @@
+.murrel {
+  // hier komt alles in
+  // footer kleur kunt ge weg doen
+.container{
+  text-align: center;
+  justify-content: center;
+}
+
+ .afb{
+   //border-bottom-style: 2 px  $nav_red;
+
+ }
+
+  .p1{
+    padding: 25px;
+  }
+  .p2{
+    padding: 25px;
+  }
+  .p3{
+    padding: 25px;
+  }
+
+  @keyframes draai {
+    to {
+      transform: rotate(0deg);
+    }
+
+    from{
+      transform: rotate(360deg);
+    }
+  }
+  .mv{
+
+    animation-name: draai;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+  }
+
+  .zonder{
+    text-decoration: none;
+  }
+  .hier{
+    padding: 10px;
+  }
+  ul{
+    text-align: left;
+    justify-content:left;
+  }
+  .mp:hover{
+    color: red;
+    transform: rotate(-6deg) scale(1.6);
+  }
+
+  //footer{
+  //  background-color: #adb5bd;
+  //  padding: 10px;
+  //}
+
+}
